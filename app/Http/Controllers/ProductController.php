@@ -69,6 +69,12 @@ class ProductController extends Controller
     {
         return $request;
     }
+    
+    //Sample Edit Method
+    public function editProductNewMethod(Request $request)
+    {
+        return $request;
+    }
 
     public function uploadImage(Request $request)
     {
